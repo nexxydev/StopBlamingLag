@@ -66,7 +66,7 @@ nano .env
 
 ##########################################
 # NOTE: before continuing, make sure you #
-# have completely configured the file.   #
+# have completed the config.             #
 ##########################################
 
 # start the server
