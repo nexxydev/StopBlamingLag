@@ -1,18 +1,12 @@
-# gulag - a dev-oriented, production-geared osu! server
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/cmyui/gulag/master.svg)](https://results.pre-commit.ci/latest/github/cmyui/gulag/master)
-[![Discord](https://discordapp.com/api/guilds/748687781605408908/widget.png?style=shield)](https://discord.gg/ShEQgUx)
+# StopBlamingLag, a customized version of Gu*lag* for Denopia.
+[![Discord](https://discordapp.com/api/guilds/896323275662176267/widget.png?style=shield)](https://discord.gg/tukB8TZ42V)
 
-gulag is an in-progress osu! server implementation geared towards running production
-servers - it is developed primarily by [Akatsuki](https://akatsuki.pw/) with our
-long-term goal being to replace our current [Ripple](https://github.com/osuripple)
-stack with something more easily maintainable, reliable, scalable, and feature-rich.
+StopBlamingLag, a customized version of Gu*lag* for Denopia, a new Osu! server.
 
 # Setup
 ```sh
 # clone the repository & init the submodules
-git clone https://github.com/cmyui/gulag.git && cd gulag
+git clone https://github.com/nexxydev/StopBlamingLag && cd gulag
 
 # clone the submodules (oppai-ng)
 git submodule init && git submodule update
@@ -37,10 +31,10 @@ python3.9 -m pip install -U pip setuptools \
 # https://pre-commit.com/
 pre-commit install
 
-######################################
-# NOTE: before continuing, create an #
-# empty database in mysql for gulag  #
-######################################
+###############################################
+# NOTE: before continuing, create an          #
+# empty database in mysql for StopBlamingLag  #
+###############################################
 
 # import gulag's mysql structure
 mysql -u your_sql_username -p your_db_name < migrations/base.sql
