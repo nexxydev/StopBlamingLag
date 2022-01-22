@@ -5,6 +5,20 @@ StopBlamingLag, a customized version of Gu*lag* for Denopia, a new Osu! server.
 
 # Setup
 ```sh
+#add the following A records to your domain, pointing to your servers IP:
+a
+api
+assets
+b
+c4
+c5
+c6
+c
+ce
+osu
+s
+web
+
 # clone the repository & init the submodules
 git clone https://github.com/nexxydev/StopBlamingLag && cd gulag
 
