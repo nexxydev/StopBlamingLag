@@ -63,8 +63,8 @@ sudo certbot certonly \
     -d *.your.domain
 
 # copy our nginx config to `sites-enabled` & open for editing
-sudo cp ext/nginx.conf /etc/nginx/sites-enabled/gulag.conf
-sudo nano /etc/nginx/sites-enabled/gulag.conf
+sudo cp ext/nginx.conf /etc/nginx/sites-enabled/nginx.conf
+sudo nano /etc/nginx/sites-enabled/nginx.conf
 
 ##########################################
 # NOTE: before continuing, make sure you #
