@@ -20,7 +20,7 @@ s
 web
 
 # clone the repository & init the submodules
-git clone https://github.com/nexxydev/StopBlamingLag && cd gulag
+git clone https://github.com/nexxydev/StopBlamingLag && cd StopBlamingLag
 
 # clone the submodules (oppai-ng)
 git submodule init && git submodule update
